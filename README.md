@@ -1,13 +1,19 @@
 # Orbit-Atlas-Based-MRI-Segmentation
 An atlas-based segmentation of the Orbit T1 MR image
 
-An example from the [IXI dataset](https://brain-development.org/ixi-dataset/)  with selected anatomical landmarks is provided.
+Follow these steps for a demonstration:
+1. Download the [orbit atlas](https://drive.google.com/file/d/1nNXVWC9WTn4dlnc7vPMJXNI4aNc8lFc_/view?usp=sharing)
+2. Download the example from this repository
+3. Download/clone the Python code and update the paths to the atlas and the example folder
+4. Execute the Python code, and the result will be saved in a results folder where the input data resides.
 
-To try out the method on your own images, you will need to define four anatomical points on the MRI. 
+The example is based on an image from the [IXI dataset](https://brain-development.org/ixi-dataset/)  with the addition of selected anatomical landmarks.
+
+To try out the method on your images, you will need to define four anatomical points on the MRI. 
 You can utilize [3D Slicer](https://www.slicer.org/) to that end. 
 It is possible to change this list of points or the segmentation in the atlas dataset to modify this code for other organs.
 
-For this implementation you will need to identify the following anatomical landmarks (in this order):
+For this implementation, you will need to identify the following anatomical landmarks (in this order):
 1. The center of the right eyeball
 2. The center of the left eyeball
 3. The nose bridge
