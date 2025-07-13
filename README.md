@@ -10,7 +10,7 @@ It is possible to change this list of points or the segmentation in the atlas da
 For this implementation you will need to identify the following anatomical landmarks (in this order):
 1. The center of the right eyeball
 2. The center of the left eyeball
-3. the nose bridge
+3. The nose bridge
 4. Anterior point of the optic chiasm
 
 The landmarks identification does not need to be accurate.
