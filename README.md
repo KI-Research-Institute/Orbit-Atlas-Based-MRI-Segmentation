@@ -2,9 +2,10 @@
 An atlas-based segmentation of the Orbit T1 MR image
 
 An example from the [IXI dataset](https://brain-development.org/ixi-dataset/)  with selected anatomical landmarks is provided.
-To try out the method on your images, you will need to define anatomical points on the MRI. 
+
+To try out the method on your own images, you will need to define four anatomical points on the MRI. 
 You can utilize [3D Slicer](https://www.slicer.org/) to that end. 
-It is possible to change this list of points or the segmentation in the atlas dataset.
+It is possible to change this list of points or the segmentation in the atlas dataset to modify this code for other organs.
 
 For this implementation you will need to identify the following anatomical landmarks (in this order):
 1. The center of the right eyeball
