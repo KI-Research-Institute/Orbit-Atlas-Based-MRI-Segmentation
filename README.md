@@ -3,7 +3,7 @@ An atlas-based segmentation of the Orbit T1 MR image
 
 Follow these steps for a demonstration:
 1. Download the [orbit atlas](https://drive.google.com/file/d/1nNXVWC9WTn4dlnc7vPMJXNI4aNc8lFc_/view?usp=sharing)
-2. Download the example from this repository
+2. Download the example input data from this repository
 3. Download/clone the Python code and update the paths to the atlas and the example folder
 4. Execute the Python code, and the result will be saved in a results folder where the input data resides.
 
