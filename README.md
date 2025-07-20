@@ -16,11 +16,17 @@ Performance drops with abnormal/deformed anatomy.
 
 # References
 [1]	J. Barranco et al., “Eye-Opening Advances: Automated 3D Segmentation, Key Biomarkers Extraction, and the First Large-Scale MRI Eye Atlas,” Aug. 19, 2024, bioRxiv. doi: 10.1101/2024.08.15.608051.
+
 [2]	“IXI Dataset – Brain Development.” Accessed: Jul. 13, 2025. [Online]. Available: https://brain-development.org/ixi-dataset/
+
 [3]	V. Fonov, A. Evans, R. McKinstry, C. Almli, and D. Collins, “Unbiased nonlinear average age-appropriate brain templates from birth to adulthood,” NeuroImage, vol. 47, p. S102, Jul. 2009, doi: 10.1016/s1053-8119(09)70884-5.
+
 [4]	“3D Slicer image computing platform,” 3D Slicer. Accessed: Jul. 13, 2025. [Online]. Available: https://slicer.org/
+
 [5]	“SimpleITK - Home.” Accessed: Jul. 13, 2025. [Online]. Available: https://simpleitk.org/
+
 [6]	“ANTs by stnava.” Accessed: Jul. 14, 2025. [Online]. Available: https://stnava.github.io/ANTs/
+
 [7]	“nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | Nature Methods.” Accessed: Jul. 13, 2025. [Online]. Available: https://www.nature.com/articles/s41592-020-01008-z
 
 
