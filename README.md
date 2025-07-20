@@ -23,10 +23,6 @@ Performance drops with abnormal/deformed anatomy.
 [6]	“ANTs by stnava.” Accessed: Jul. 14, 2025. [Online]. Available: https://stnava.github.io/ANTs/
 [7]	“nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | Nature Methods.” Accessed: Jul. 13, 2025. [Online]. Available: https://www.nature.com/articles/s41592-020-01008-z
 
-. 
-
-# Method
-
 
 
 # Installation guide
