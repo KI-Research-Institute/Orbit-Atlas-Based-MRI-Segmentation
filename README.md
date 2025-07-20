@@ -1,4 +1,4 @@
-# Orbit-Atlas-Based-MRI-Segmentation
+# Orbit Atlas-Based MRI T1 Segmentation
 
 <img width="492" height="519" alt="image" src="https://github.com/user-attachments/assets/a7a11ba6-c348-46e2-8c91-ce2d4576c4d3" />
 
