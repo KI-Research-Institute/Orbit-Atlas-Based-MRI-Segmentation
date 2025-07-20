@@ -1,5 +1,30 @@
 # Orbit-Atlas-Based-MRI-Segmentation
-An atlas-based segmentation of the Orbit T1 MR image
+
+<img width="492" height="519" alt="image" src="https://github.com/user-attachments/assets/a7a11ba6-c348-46e2-8c91-ce2d4576c4d3" />
+
+# The challenge:
+Even when legal agreements are on hold, technical teams can move forward. The teams from KI Research Institute and Sheba Medical Center's Orbital Surgery Institute collaborated to implement the necessary infrastructure for a future joint project. During that preparation work, we anticipated a key challenge: a lack of publicly available segmented MRI datasets of the human orbit. Searching the internet, we found only one open segmentation of the right orbit section on a single MRI (T1w) image [1]. A common solution would be to hire a team for manual segmentation, a process that would be time-consuming (months) and expensive.
+
+# Solution: atlas-based segmentation for initial data generation
+As an alternative, we have developed an atlas-based segmentation method to semi-automatically generate 70 segmented head MRIs (T1w) of healthy subjects from IXI open dataset [2]. To this end, we have manually placed the single right orbit segmentation of [1] on the right and left head MRI MNI atlas (MNI-ICBM152) [3] using 3D Slicer [4]. Following the placement of few predefined anatomical landmarks, an affine transform was computed between the atlas MRI and each of the 70 subjects using SimpleITK and ANTs [5], [6]. Last, the orbit segments were transformed from the atlas coordinates to the subject's MRI. That way, we have produced the segmentation dataset of 70 healthy subjects in a single day. Later on, we have utilized nnU-Net [7] to train a segmentation network based on the 70 subjects and successfully applied it on Sheba’s Orbital Surgery Institute dataset (see image below). Early results are promising!
+
+# Limitations of this method:
+The accuracy of the orbit segmentation is lower than manual annotation. 
+Performance drops with abnormal/deformed anatomy.
+
+
+[1]	J. Barranco et al., “Eye-Opening Advances: Automated 3D Segmentation, Key Biomarkers Extraction, and the First Large-Scale MRI Eye Atlas,” Aug. 19, 2024, bioRxiv. doi: 10.1101/2024.08.15.608051.
+[2]	“IXI Dataset – Brain Development.” Accessed: Jul. 13, 2025. [Online]. Available: https://brain-development.org/ixi-dataset/
+[3]	V. Fonov, A. Evans, R. McKinstry, C. Almli, and D. Collins, “Unbiased nonlinear average age-appropriate brain templates from birth to adulthood,” NeuroImage, vol. 47, p. S102, Jul. 2009, doi: 10.1016/s1053-8119(09)70884-5.
+[4]	“3D Slicer image computing platform,” 3D Slicer. Accessed: Jul. 13, 2025. [Online]. Available: https://slicer.org/
+[5]	“SimpleITK - Home.” Accessed: Jul. 13, 2025. [Online]. Available: https://simpleitk.org/
+[6]	“ANTs by stnava.” Accessed: Jul. 14, 2025. [Online]. Available: https://stnava.github.io/ANTs/
+[7]	“nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation | Nature Methods.” Accessed: Jul. 13, 2025. [Online]. Available: https://www.nature.com/articles/s41592-020-01008-z
+
+. 
+
+# Method
+
 
 
 # Installation guide
