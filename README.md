@@ -9,7 +9,9 @@ Even when legal agreements are on hold, technical teams can move forward. The te
 As an alternative, we have developed an atlas-based segmentation method to semi-automatically generate 70 segmented head MRIs (T1w) of healthy subjects from IXI open dataset [2]. To this end, we have manually placed the single right orbit segmentation of [1] on the right and left head MRI MNI atlas (MNI-ICBM152) [3] using 3D Slicer [4]. Following the placement of few predefined anatomical landmarks, an affine transform was computed between the atlas MRI and each of the 70 subjects using SimpleITK and ANTs [5], [6]. Last, the orbit segments were transformed from the atlas coordinates to the subject's MRI. That way, we have produced the segmentation dataset of 70 healthy subjects in a single day. Later on, we have utilized nnU-Net [7] to train a segmentation network based on the 70 subjects and successfully applied it on Sheba’s Orbital Surgery Institute dataset (see image below). Early results are promising!
 
 # Limitations of this method:
+
 The accuracy of the orbit segmentation is lower than manual annotation. 
+
 Performance drops with abnormal/deformed anatomy.
 
 
