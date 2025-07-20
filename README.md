@@ -14,7 +14,7 @@ The accuracy of the orbit segmentation is lower than manual annotation.
 
 Performance drops with abnormal/deformed anatomy.
 
-
+# References
 [1]	J. Barranco et al., “Eye-Opening Advances: Automated 3D Segmentation, Key Biomarkers Extraction, and the First Large-Scale MRI Eye Atlas,” Aug. 19, 2024, bioRxiv. doi: 10.1101/2024.08.15.608051.
 [2]	“IXI Dataset – Brain Development.” Accessed: Jul. 13, 2025. [Online]. Available: https://brain-development.org/ixi-dataset/
 [3]	V. Fonov, A. Evans, R. McKinstry, C. Almli, and D. Collins, “Unbiased nonlinear average age-appropriate brain templates from birth to adulthood,” NeuroImage, vol. 47, p. S102, Jul. 2009, doi: 10.1016/s1053-8119(09)70884-5.
