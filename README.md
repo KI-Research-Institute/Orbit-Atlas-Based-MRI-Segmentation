@@ -1,11 +1,16 @@
 # Orbit-Atlas-Based-MRI-Segmentation
 An atlas-based segmentation of the Orbit T1 MR image
 
-Follow these steps for a demonstration:
+
+# Installation guide
 1. Download the [orbit atlas](https://drive.google.com/file/d/1nNXVWC9WTn4dlnc7vPMJXNI4aNc8lFc_/view?usp=sharing)
 2. Download the example input data from this repository
 3. Download/clone the Python code and update the paths to the atlas and the example folder
-4. Execute the Python code, and the result will be saved in a results folder where the input data resides.
+4. In Python install SimpleITK, pandas, numpy and other relevant packages.
+5. Download and copy ANTs binaries from: https://github.com/ANTsX/ANTs/releases
+   (ANTs: Advanced Normalization Tools; website and source: https://stnava.github.io/ANTs/)
+   You will need to update the path to the binaries in the python code.
+7. Execute the Python code, and the result will be saved in a results folder where the input data resides.
 
 The example is based on an image from the [IXI dataset](https://brain-development.org/ixi-dataset/)  with the addition of selected anatomical landmarks.
 
