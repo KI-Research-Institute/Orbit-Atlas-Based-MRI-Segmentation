@@ -40,10 +40,9 @@ Performance drops with abnormal/deformed anatomy.
 2. Download the example input data from this repository
 3. Download/clone the Python code and update the paths to the atlas and the example folder
 4. In Python install SimpleITK, pandas, numpy and other relevant packages.
-5. Download and copy ANTs binaries from: https://github.com/ANTsX/ANTs/releases
-   (ANTs: Advanced Normalization Tools; website and source: https://stnava.github.io/ANTs/)
-   You will need to update the path to the binaries in the python code.
-7. Execute the Python code, and the result will be saved in a results folder where the input data resides.
+5. Execute the Python code, and the result will be saved in a results folder where the input data resides.
+
+[Optional] Suppose you are willing to use this code as a base code to develop your own atlas-based segmentation that requires higher accuracy and deformable registration. In that case, we can share that we had a great experience with ANTs: Advanced Normalization Tools. You may want to use the ANTs Python package or download ANTs binaries from: https://github.com/ANTsX/ANTs/releases. (See also their website and source: https://stnava.github.io/ANTs/). 
 
 The example is based on an image from the [IXI dataset](https://brain-development.org/ixi-dataset/)  with the addition of selected anatomical landmarks.
 
