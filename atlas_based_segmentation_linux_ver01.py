@@ -252,8 +252,6 @@ def perform_atlas_based_registration (fixed_patient_folder, fixed_patient_T1_ima
     mask_filename_2 = os.path.join(atlas_data_directory, 'male_eye_mask_eye_2_T1_coords_L.nii')
     atlas_points_set_filename = os.path.join(atlas_data_directory, 'T1_atlas_init_02.fcsv')
 
-    fixed_patient_T1_image_filename = os.path.join(fixed_patient_folder, fixed_patient_T1_image_filename)
-
     tmp_folder = os.path.join(fixed_patient_folder, 'tmp')
     if not os.path.exists(tmp_folder):
         os.makedirs(tmp_folder)
